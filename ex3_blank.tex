@@ -24,7 +24,7 @@
 \newcommand{\e}{\fullmoon}
 \newcommand{\f}{\newmoon}
 \newcommand{\spacer}{\hspace{4pt}\hrulefill\hspace{4pt}}
-\newcommand{\logo}{\includegraphics[scale=0.25]{ex3_logo.jpg}}
+\newcommand{\logo}{\includegraphics[scale=0.3]{ex3_logo.png}}
 
 % Symbol decorator macros
 \newcommand{\N}{$\square$\hspace{4pt}}
@@ -92,46 +92,51 @@
   %%%
   \sectionheader{Attributes}
   \begin{multicols}{3}
-    \score{Strength}{\1}
-    \score{Dexterity}{\1}
-    \score{Stamina}{\1}
-    %%%
-    \score{Charisma}{\1}
-    \score{Manipulation}{\1}
-    \score{Appearance}{\1}
-    %%%
-    \score{Perception}{\1}
     \score{Intelligence}{\1}
     \score{Wits}{\1}
+    \score{Resolve}{\1}
+    %%%
+    \score{Strength}{\1}
+    \score{Desterity}{\1}
+    \score{Charisma}{\1}
+    %%%
+    \score{Presence}{\1}
+    \score{Manipulation}{\1}
+    \score{Composure}{\1}
   \end{multicols}
   %%%
-  \sectionheader{Abilities}
+  \sectionheader{Skills}
   % \s - supernal ability
   \begin{multicols}{3}
-    {\N}\score{Archery}{\0}
-    {\N}\score{Athletics}{\0}
-    {\N}\score{Awareness}{\0}
-    {\N}\score{Brawl}{\0}
-    {\N}\score{Bureaucracy}{\0}
-    {\N}\score{Dodge}{\0}
-    {\N}\score{Integrity}{\0}
-    {\N}\score{Investigation}{\0}
-    {\N}\score{Larceny}{\0}
-    {\N}\score{Linguistics}{\0}
-    {\N}\score{Lore}{\0}
-    {\N}\score{Medicine}{\0}
-    {\N}\score{Melee}{\0}
-    {\N}\score{Occult}{\0}
-    {\N}\score{Performance}{\0}
-    {\N}\score{Presence}{\0}
-    {\N}\score{Resistance}{\0}
-    {\N}\score{Ride}{\0}
-    {\N}\score{Sail}{\0}
-    {\N}\score{Socialize}{\0}
-    {\N}\score{Stealth}{\0}
-    {\N}\score{Survival}{\0}
-    {\N}\score{Thrown}{\0}
-    {\N}\score{War}{\0}
+    \columnheader{Mental (-3 if unskilled)}
+    \score{Academics}{\0}
+    \score{Computer}{\0}
+    \score{Crafts}{\0}
+    \score{Investigation}{\0}
+    \score{Medicine}{\0}
+    \score{Chi Focus}{\0}
+    \score{Politics}{\0}
+    \score{Science}{\0}
+    %%%
+    \columnheader{Physical (-1 if unskilled)}
+    \score{Athletics}{\0}
+    \score{Brawl}{\0}
+    \score{Drive}{\0}
+    \score{Firearms}{\0}
+    \score{Larceny}{\0}
+    \score{Stealth}{\0}
+    \score{Survival}{\0}
+    \score{Weaponry}{\0}
+    %%%
+    \columnheader{Social (-1 if unskilled)}
+    \score{Animal Ken}{\0}
+    \score{Empathy}{\0}
+    \score{Expression}{\0}
+    \score{Intimidation}{\0}
+    \score{Persuasion}{\0}
+    \score{Socialize}{\0}
+    \score{Streetwise}{\0}
+    \score{Subterfuge}{\0}
   \end{multicols}
   %%%
 %
@@ -160,6 +165,7 @@
   \end{multicols}
   \fi
   %%%
+  \sectionheader{Merits}
   \begin{multicols}{3}
     \columnheader{Specialties}
     \property{}{}
