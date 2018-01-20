@@ -17,6 +17,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{placeins}
+\usepackage{droid}
 
 \setlength\parindent{0pt}
 
@@ -24,7 +25,7 @@
 \newcommand{\e}{\fullmoon}
 \newcommand{\f}{\newmoon}
 \newcommand{\spacer}{\hspace{4pt}\hrulefill\hspace{4pt}}
-\newcommand{\logo}{\includegraphics[scale=0.3]{ex3_logo.png}}
+\newcommand{\logo}{\includegraphics[scale=0.3]{sa_logo.png}}
 
 % Symbol decorator macros
 \newcommand{\N}{$\square$\hspace{4pt}}
@@ -88,7 +89,7 @@
 
 \begin{document}
   %%%
-  \sheetheader{\spacer}{Caste:\spacer}
+  \sheetheader{\spacer}{Name:\spacer}
   %%%
   \sectionheader{Attributes}
   \begin{multicols}{3}
@@ -149,7 +150,7 @@
 %   sections, or else you might need to push a section onto page 2. You can do
 %   this cleanly by forcing a page break with the '\pagebreak' command.
 %
-  \iftrue
+  \iffalse
   \begin{multicols}{2}
     \columnheader{Crafts}
     {\N}\score{}{\0}
@@ -167,14 +168,6 @@
   %%%
   \sectionheader{Merits}
   \begin{multicols}{3}
-    \columnheader{Specialties}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \nextcolumn
-    %%%
     \columnheader{Merits}
     \score{}{\0}
     \score{}{\0}
@@ -183,15 +176,23 @@
     \score{}{\0}
     \nextcolumn
     %%%
-    \columnheader{Possessions}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
+    \columnheader{Plugins}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
+    \nextcolumn
+    %%%
+    \columnheader{Chi Powers and Martial Arts}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
   \end{multicols}
   %%%
-  \sectionheader{Charms}
+  \sectionheader{Other}
   \begin{multicols}{2}
     \property{}{}
     \property{}{}
