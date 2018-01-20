@@ -46,6 +46,7 @@
 \newcommand{\pfour}{\N\N\N\N}
 \newcommand{\pfive}{\N\N\N\N\N}
 \newcommand{\pten}{$\square\square\square\square\square\square\square\square\square\square$}
+\newcommand{\ptwelve}{$\square\square\square\square\square\square\square\square\square\square\square\square$}
 \newcommand{\pfield}[1]{\rule[-3pt]{30pt}{0.4pt} / {#1}}
 
 % Section and entry macros
@@ -216,14 +217,19 @@
   %%%
   \setlength{\columnsep}{24pt}
   \begin{multicols}{3}
-    \columnheader{Essence}
-    \pool{Essence}{\1}
-    \pool{Personal Essence}{\pfield{\rule[-3pt]{24pt}{0.4pt}}}
-    \pool{Peripheral Essence}{\pfield{\rule[-3pt]{24pt}{0.4pt}}}
-    \pool{Committed Essence}{\pfield{\rule[-3pt]{24pt}{0.4pt}}}
+    \columnheader{Vitals}
+    \property{Size}{}
+    \property{Speed}{}
+    \property{Defense}{}
+    \property{Armor}{}
+    \property{Initiative Mod}{}
+    \property{Experience}{}
     \blankline
-    \pool{Willpower}{\5\0}
-    \pool{Temp Will}{\pten}
+    \pool{Health}{\0\0\e\e}
+    \pool{}{\ptwelve}
+    \blankline
+    \pool{Willpower}{\0\0}
+    \pool{}{\pten}
     \nextcolumn
     \columnheader{Combat Values}
     \property{Join Battle}{+ 3 successes}
@@ -234,13 +240,17 @@
     \property{Resolve}{}
     \property{Guile}{}
     \nextcolumn
-    \columnheader{Health Pool}
-    \pool{-0}{\pfour}
-    \pool{-1}{\pfour}
-    \pool{-2}{\pfour}
-    \pool{-2}{\pfour}
-    \pool{-4}{\pfour}
-    \pool{Incap}{\pone}
+    \columnheader{Alienation}
+    \score{10}{\e}
+    \score{9}{\e}
+    \score{8}{\e}
+    \score{7}{\e}
+    \score{6}{\e}
+    \score{5}{\e}
+    \score{4}{\e}
+    \score{3}{\e}
+    \score{2}{\e}
+    \score{1}{\e}
   \end{multicols}
 %
 % This last section is currently unfinished, it will be the character sheet back page.
