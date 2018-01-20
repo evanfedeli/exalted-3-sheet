@@ -58,6 +58,7 @@
 \newcommand{\sheetheader}[2]{\raisebox{32px}{\LARGE#1}\hfill\logo\par\raisebox{24px}[0px][0px]{\em#2}\par\vspace{-20pt}}
 \newcommand{\blankline}{\vspace{12pt}}
 \newcommand{\nextcolumn}{\vfill\columnbreak}
+\newcommand\tab[1][2cm]{\hspace*{#1}}
 
 %
 % Character sheet contents are defined from here down.
@@ -90,7 +91,7 @@
 
 \begin{document}
   %%%
-  \sheetheader{\spacer}{Name:\spacer}
+  \sheetheader{\spacer}{Name:\tab Age:\tab Player:\tab Virtue:\tab Vice:\spacer}
   %%%
   \sectionheader{Attributes}
   \begin{multicols}{3}
@@ -123,7 +124,7 @@
     \columnheader{Physical (-1 if unskilled)}
     \score{Athletics}{\0}
     \score{Brawl}{\0}
-    \score{Drive}{\0}
+    \score{Pilot}{\0}
     \score{Firearms}{\0}
     \score{Larceny}{\0}
     \score{Stealth}{\0}
@@ -175,9 +176,13 @@
     \score{}{\0}
     \score{}{\0}
     \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
     \nextcolumn
     %%%
     \columnheader{Plugins}
+    \score{}{\0}
+    \score{}{\0}
     \score{}{\0}
     \score{}{\0}
     \score{}{\0}
@@ -191,25 +196,28 @@
     \score{}{\0}
     \score{}{\0}
     \score{}{\0}
+    \score{}{\0}
+    \score{}{\0}
   \end{multicols}
   %%%
-  \sectionheader{Other}
-  \begin{multicols}{2}
+  \sectionheader{Stuff}
+  \begin{multicols}{4}
+    \columnheader{Weapon Attack}
     \property{}{}
     \property{}{}
     \property{}{}
+    \nextcolumn
+    \columnheader{Dice Mod.}
     \property{}{}
     \property{}{}
     \property{}{}
+    \nextcolumn
+    \columnheader{Range/Clip}
     \property{}{}
     \property{}{}
     \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
-    \property{}{}
+    \nextcolumn
+    \columnheader{Size}
     \property{}{}
     \property{}{}
     \property{}{}
@@ -231,14 +239,14 @@
     \pool{Willpower}{\0\0}
     \pool{}{\pten}
     \nextcolumn
-    \columnheader{Combat Values}
-    \property{Join Battle}{+ 3 successes}
-    \property{Parry (rapier)}{}
-    \property{Evasion}{}
-    \property{Soak}{}
-    \blankline
-    \property{Resolve}{}
-    \property{Guile}{}
+    \columnheader{Other}
+    \property{}{}
+    \property{}{}
+    \property{}{}
+    \property{}{}
+    \property{}{}
+    \property{}{}
+    \property{}{}
     \nextcolumn
     \columnheader{Alienation}
     \score{10}{\e}
