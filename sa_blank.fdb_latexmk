@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1516509547 "c:/Users/evanf/spiral-arms-storytelling-sheet/sa_blank.tex" "sa_blank.pdf" "sa_blank" 1516509570
-  "c:/Users/evanf/spiral-arms-storytelling-sheet/sa_blank.tex" 1516509568 12257 e839a24a4bd3daa5b27218fb665db7ea ""
+["pdflatex"] 1516509813 "c:/Users/evanf/spiral-arms-storytelling-sheet/sa_blank.tex" "sa_blank.pdf" "sa_blank" 1516509813
+  "c:/Users/evanf/spiral-arms-storytelling-sheet/sa_blank.tex" 1516509812 12261 12c0ddc089b16af3dd1e970609c44aad ""
   "c:/texlive/2017/texmf-dist/fonts/enc/dvips/droid/droid-01.enc" 1516416543 3208 774a845f3c996f69f4af73dfaa7ec993 ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1516416768 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1516416009 1004 54797486969f23fa377b128694d548df ""
@@ -80,10 +80,10 @@
   "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1516419355 2561369 0ae64fd9418a698d9b6cbe5112d9f854 ""
   "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1516419413 4127822 17bc9e06b370baff18988e343cc46c66 ""
   "c:/texlive/2017/texmf.cnf" 1516419340 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "sa_blank.aux" 1516509547 8 a94a2480d3289e625eea47cd1b285758 ""
-  "sa_blank.tex" 1516509568 12257 e839a24a4bd3daa5b27218fb665db7ea ""
+  "sa_blank.aux" 1516509813 8 a94a2480d3289e625eea47cd1b285758 ""
+  "sa_blank.tex" 1516509812 12261 12c0ddc089b16af3dd1e970609c44aad ""
   "sa_logo.png" 1516458508 1618 8007a1d21d0b44ed7ca5d300e3cecfef ""
   (generated)
+  "sa_blank.pdf"
   "sa_blank.log"
   "sa_blank.aux"
-  "sa_blank.pdf"
