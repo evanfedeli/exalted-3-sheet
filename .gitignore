@@ -4,3 +4,6 @@
 *.aux
 *.nogeo
 *.txt
+*.fdb_latexmk
+*.synctex.gz
+*.fls
